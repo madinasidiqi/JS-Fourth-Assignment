@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <style>
+            div{
+                margin-top: 50px;
+            }
+            .para{
+                display: none;
+            }
+            .parashow{
+                display: block;
+            }
+        </style>
+    </head>
+
+    <body>
+     <div>
+        <input type="color" class="colorpicker"><br>
+        <button class="btnfirst" >click me</button>
+     </div><br>
+     <button id="btnp">show and hide p</button>
+     <p class="para" id="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos culpa modi obcaecati velit, aliquid, nesciunt libero nam optio, quisquam necessitatibus voluptatum voluptate illo voluptates nostrum ipsam. Eum, in dolore.
+     </p>
+
+     <div id="lists">
+       
+     </div>
+    <div class="form">
+    
+    <button>Add input</button>
+    </div>
+    
+    <br> <br>
+
+    <table border="1px solid black">
+        <tr>
+            <td> <label>First number</label></td>
+            <td><input type="number" id="num1"></td>
+        </tr>
+        <tr>
+            <td> <label>Second number</label></td>
+            <td><input type="number" id="num2"></td>
+        </tr>
+        <tr>
+            <td> 
+            <button onclick="sum()" >+</button>  
+            <button onclick="sub()">-</button>
+            <button onclick="mult()">*</button> 
+            <button onclick="division()">/</button> 
+           </td>
+            <td><input type="text" disabled id="res"></td>
+        </tr>
+    </table>
+  
+     <br>
+
+
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
